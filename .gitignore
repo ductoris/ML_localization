@@ -12,6 +12,7 @@ datasets/
 *.bin
 *.onnx
 models/
+!map/models/
 
 # Python
 __pycache__/
