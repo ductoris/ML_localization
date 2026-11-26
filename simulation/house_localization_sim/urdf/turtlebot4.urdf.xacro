@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot name="turtlebot4" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find turtlebot4_description)/urdf/standard/turtlebot4.urdf.xacro"/>
+  <xacro:include filename="panorama_rig.xacro"/>
+  <xacro:arg name="panorama" default="false"/>
+  <xacro:arg name="camera_height" default="0.8"/>
+  <xacro:arg name="source_width" default="320"/>
+  <xacro:arg name="source_height" default="320"/>
+  <xacro:arg name="horizontal_fov_deg" default="110.0"/>
+  <xacro:arg name="update_rate" default="5.0"/>
+  <xacro:if value="$(arg panorama)">
+    <xacro:panorama_rig camera_height="$(arg camera_height)" width="$(arg source_width)" height="$(arg source_height)"
+                        hfov="$(arg horizontal_fov_deg)" update_rate="$(arg update_rate)"/>
+  </xacro:if>
+</robot>

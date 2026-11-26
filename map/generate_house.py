@@ -28,13 +28,13 @@ XMAX, YMAX = 10.5, 7.5  # half extents of the house
 
 # name: (xmin, xmax, ymin, ymax, floor rgb, wall rgb)
 ROOMS = {
-    "bedroom1": (-10.5, -3.75, 1.5, 7.5, (0.55, 0.40, 0.25), (0.85, 0.75, 0.55)),  # warm beige
-    "bathroom": (-3.75, 0.0, 1.5, 7.5, (0.75, 0.85, 0.90), (0.55, 0.78, 0.78)),    # teal
-    "office":   (0.0, 5.25, 1.5, 7.5, (0.35, 0.35, 0.40), (0.65, 0.70, 0.82)),     # grey-blue
-    "bedroom2": (5.25, 10.5, 1.5, 7.5, (0.80, 0.65, 0.70), (0.78, 0.66, 0.80)),    # lilac
+    "bedroom1": (-10.5, -3.75, 1.5, 7.5, (0.70, 0.50, 0.30), (0.89, 0.75, 0.60)),  # warm beige
+    "bathroom": (-3.75, 0.0, 1.5, 7.5, (0.73, 0.86, 0.89), (0.38, 0.72, 0.76)),    # teal
+    "office":   (0.0, 5.25, 1.5, 7.5, (0.27, 0.29, 0.32), (0.60, 0.70, 0.82)),     # grey-blue
+    "bedroom2": (5.25, 10.5, 1.5, 7.5, (0.68, 0.52, 0.63), (0.72, 0.51, 0.72)),    # lilac
     "hallway":  (-10.5, 10.5, -1.5, 1.5, (0.85, 0.80, 0.70), (0.93, 0.90, 0.82)),  # cream
-    "living":   (-10.5, 1.5, -7.5, -1.5, (0.45, 0.30, 0.20), (0.62, 0.72, 0.55)),  # sage green
-    "kitchen":  (1.5, 10.5, -7.5, -1.5, (0.90, 0.90, 0.85), (0.93, 0.70, 0.50)),   # terracotta
+    "living":   (-10.5, 1.5, -7.5, -1.5, (0.45, 0.30, 0.20), (0.53, 0.72, 0.47)),  # sage green
+    "kitchen":  (1.5, 10.5, -7.5, -1.5, (0.90, 0.90, 0.85), (0.88, 0.61, 0.43)),   # terracotta
 }
 EXTERIOR_RGB = (0.80, 0.78, 0.72)
 
@@ -69,10 +69,11 @@ FURNITURE = [
     ("WhiteCabinet", -10.15, 4.0, 90), ("Bookshelf", -9.3, 1.85, 180), ("Chair", -4.4, 2.4, 135),
     # Bathroom
     ("Bathtub", -1.9, 6.95, 0), ("Toilet", -3.25, 4.5, 0), ("BathroomSink", -0.1, 4.0, -90, 0.5),
-    # Office
-    ("Office_Desk", 2.6, 7.0, -90), ("OfficeChairBlack", 2.6, 6.1, 0),
+    # Office: tuck both chairs under their desks, facing the worktops.
+    # Keep the floor between the doorway and the first desk clear.
+    ("Office_Desk", 2.6, 7.0, -90), ("OfficeChairBlack", 2.6, 6.45, 180),
     ("Bookshelf", 4.95, 3.6, -90), ("Bookshelf", 4.95, 4.6, -90), ("Cabinet", 0.4, 4.0, 90),
-    ("Office_Desk", 2.6, 3.4, 90), ("OfficeChairBlack", 2.6, 2.6, 180),
+    ("Office_Desk", 2.6, 4.65, 90), ("OfficeChairBlack", 2.6, 5.20, 0),
     # Bedroom 2: bed against east wall (different from bedroom 1), desk, armchair, wardrobe
     ("Bed", 9.1, 4.5, -90), ("LampAndStand", 10.0, 6.3, 0), ("WhiteCabinet", 8.8, 7.15, 0),
     ("Desk", 5.6, 4.0, 0), ("WoodenChair", 6.2, 4.0, 180), ("MiniSofa", 6.0, 2.3, 0),
@@ -110,17 +111,19 @@ PAINTINGS = [
     (-5.5, -7.5, "+y", 0.9, 0.6, 1.5, (0.55, 0.20, 0.30), (0.95, 0.75, 0.55)),   # living south wall
     (1.5, -6.3, "+x", 0.6, 0.6, 1.6, (0.95, 0.95, 0.95), (0.10, 0.10, 0.10)),    # kitchen west wall
     (8.5, -1.5, "-y", 0.8, 0.6, 1.6, (0.30, 0.55, 0.30), (0.95, 0.90, 0.40)),    # kitchen north wall
+    (-5.25, 1.5, "-y", 1.55, 0.44, 1.14, (0.21, 0.41, 0.51), (0.87, 0.72, 0.45)),  # hallway print
+    (-3.75, 5.8, "+x", 1.4, 0.46, 1.18, (0.10, 0.48, 0.53), (0.85, 0.94, 0.89)),  # bathroom panel
+    (10.5, 3.75, "-x", 1.25, 0.64, 1.26, (0.43, 0.25, 0.50), (0.81, 0.66, 0.44)),  # bedroom2 print
 ]
 
 # Lighting conditions as in the COLD dataset used by the paper (cloudy / sunny / night).
 # With the ceiling, sunlight only enters through the windows.
 PRESETS = {
-    "cloudy": dict(ambient=0.4, background=(0.7, 0.7, 0.72), sun=(0.35, 0.35, 0.38),
+    "cloudy": dict(ambient=0.42, background=(0.7, 0.7, 0.72), sun=(0.28, 0.29, 0.32),
                    sun_dir="-0.3 0.4 -0.6", lamp=(0.35, 0.35, 0.33)),
-    # sunny: lamps are off in reality; the weak warm "lamp" light stands in for sunlight
-    # bouncing around the room, which the renderer does not simulate
-    "sunny":  dict(ambient=0.55, background=(0.55, 0.7, 0.95), sun=(1.0, 0.95, 0.85),
-                   sun_dir="-0.5 0.6 -0.45", lamp=(0.28, 0.26, 0.22)),
+    # Low sun from the north-east. Modest fill approximates indirect light.
+    "sunny":  dict(ambient=0.40, background=(0.55, 0.7, 0.95), sun=(1.0, 0.91, 0.74),
+                   sun_dir="-0.27 -0.82 -0.5", intensity=2.2, lamp=(0.24, 0.23, 0.20)),
     "night":  dict(ambient=0.05, background=(0.02, 0.02, 0.05), sun=(0.0, 0.0, 0.0),
                    sun_dir="-0.3 0.4 -0.6", lamp=(0.8, 0.7, 0.5)),
 }
@@ -238,7 +241,7 @@ def furniture():
 
 def lights(p):
     out = [f'<light type="directional" name="sun"><cast_shadows>true</cast_shadows>'
-           f'<pose>0 0 10 0 0 0</pose><diffuse>{rgb_str(p["sun"])}</diffuse>'
+           f'<pose>0 0 10 0 0 0</pose><diffuse>{rgb_str(p["sun"])}</diffuse><intensity>{p.get("intensity", 1)}</intensity>'
            f'<specular>0.2 0.2 0.2 1</specular><direction>{p["sun_dir"]}</direction></light>']
     for n, (x0, x1, y0, y1, *_) in ROOMS.items():  # ceiling lamps, one per ~7 m of room length
         k = math.ceil((x1 - x0) / 7)

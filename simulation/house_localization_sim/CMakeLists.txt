@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.8)
+project(house_localization_sim)
+
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY config launch urdf DESTINATION share/${PROJECT_NAME})
+install(PROGRAMS scripts/panorama_node.py scripts/save_panorama.py DESTINATION lib/${PROJECT_NAME})
+install(PROGRAMS scripts/collect_pilot.py scripts/check_sim_dataset.py DESTINATION lib/${PROJECT_NAME})
+install(PROGRAMS scripts/capture_sim_runs.py scripts/assemble_sim_dataset.py DESTINATION lib/${PROJECT_NAME})
+install(FILES scripts/sim_dataset.py DESTINATION lib/${PROJECT_NAME})
+ament_package()

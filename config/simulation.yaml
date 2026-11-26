@@ -1,0 +1,12 @@
+dataset_folder: data/sim-seven-office/
+results_dir: data/sim-results-office
+classes: [bathroom, bedroom1, bedroom2, hallway, kitchen, living, office]
+epochs: 30
+batch_size: 16
+learning_rate: 0.001
+momentum: 0.9
+seed: 42
+amp: true
+workers: 2
+models: [mobilenet_v3_large, alexnet]
+variants: [noDA, DA1, DA2, DA3, DA4, DA5, DA6]

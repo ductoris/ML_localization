@@ -1,0 +1,4 @@
+# Coordinates are in the Gazebo house frame, in metres.
+waypoints:
+  - [-6.0, 0.0]
+  - [-3.0, 0.0]

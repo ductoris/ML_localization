@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:macro name="pinhole" params="name yaw width height hfov update_rate">
+    <gazebo reference="panorama_frame">
+      <sensor name="panorama_${name}" type="camera">
+        <pose>0 0 0 0 0 ${yaw}</pose>
+        <topic>/panorama/source/${name}</topic>
+        <always_on>true</always_on>
+        <update_rate>${update_rate}</update_rate>
+        <camera>
+          <horizontal_fov>${hfov * pi / 180}</horizontal_fov>
+          <image>
+            <width>${width}</width><height>${height}</height><format>R8G8B8</format>
+          </image>
+          <clip><near>0.05</near><far>30.0</far></clip>
+        </camera>
+      </sensor>
+    </gazebo>
+  </xacro:macro>
+
+  <xacro:macro name="panorama_rig" params="camera_height width height hfov update_rate">
+    <!-- Nominal base_link height on the simulator floor is 0.02 m. -->
+    <xacro:property name="mast_base" value="0.26"/>
+    <xacro:property name="length" value="${camera_height - 0.02 - mast_base}"/>
+    <xacro:property name="radius" value="0.012"/>
+    <xacro:property name="mass" value="0.045"/>
+    <xacro:property name="transverse_inertia" value="${mass * (3 * radius**2 + length**2) / 12}"/>
+    <joint name="panorama_mast_joint" type="fixed">
+      <parent link="base_link"/><child link="panorama_mast"/>
+      <origin xyz="0 0 ${mast_base}"/>
+    </joint>
+    <link name="panorama_mast">
+      <inertial>
+        <origin xyz="0 0 ${length / 2}"/>
+        <mass value="${mass}"/>
+        <inertia ixx="${transverse_inertia}" iyy="${transverse_inertia}" izz="${mass * radius**2 / 2}"
+                 ixy="0" ixz="0" iyz="0"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 ${length / 2}"/>
+        <geometry><cylinder radius="${radius}" length="${length}"/></geometry>
+        <material name="mast_dark"><color rgba="0.14 0.14 0.14 1"/></material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 ${length / 2}"/>
+        <geometry><cylinder radius="${radius}" length="${length}"/></geometry>
+      </collision>
+    </link>
+    <joint name="panorama_frame_joint" type="fixed">
+      <parent link="panorama_mast"/><child link="panorama_frame"/>
+      <origin xyz="0 0 ${length}"/>
+    </joint>
+    <link name="panorama_frame"/>
+    <xacro:pinhole name="front" yaw="0" width="${width}" height="${height}" hfov="${hfov}" update_rate="${update_rate}"/>
+    <xacro:pinhole name="left" yaw="${pi/2}" width="${width}" height="${height}" hfov="${hfov}" update_rate="${update_rate}"/>
+    <xacro:pinhole name="back" yaw="${pi}" width="${width}" height="${height}" hfov="${hfov}" update_rate="${update_rate}"/>
+    <xacro:pinhole name="right" yaw="${-pi/2}" width="${width}" height="${height}" hfov="${hfov}" update_rate="${update_rate}"/>
+  </xacro:macro>
+</robot>
