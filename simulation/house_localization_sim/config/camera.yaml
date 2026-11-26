@@ -1,0 +1,13 @@
+rig:
+  camera_height: 0.80
+  source_width: 320
+  source_height: 320
+  horizontal_fov_deg: 110.0
+  update_rate: 5.0
+
+panorama:
+  elevation_top_deg: 19.0
+  elevation_bottom_deg: -41.0
+  front_column: 128.0
+  azimuth_sign: -1
+  blend_half_width_deg: 3.0

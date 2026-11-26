@@ -1,0 +1,6 @@
+/diffdrive_controller:
+  ros__parameters:
+    linear.x.max_velocity: 0.30
+    linear.x.min_velocity: -0.30
+    linear.x.max_acceleration: 0.35
+    linear.x.min_acceleration: -0.35
