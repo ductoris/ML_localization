@@ -1,0 +1,11 @@
+{
+  "file": "alexnet-noDA.pt",
+  "bytes": 228136993,
+  "sha256": "bf699ce847239f98bc15e95b00bd7eeafa6e2470940e021850f4cbdaf9ead04d",
+  "parts": [
+    "alexnet-noDA.pt.part01",
+    "alexnet-noDA.pt.part02",
+    "alexnet-noDA.pt.part03",
+    "alexnet-noDA.pt.part04"
+  ]
+}
