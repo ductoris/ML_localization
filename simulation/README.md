@@ -167,7 +167,7 @@ Kiểm tra dữ liệu trước khi train bằng số ảnh từng phòng, kích
 
 ## Giai đoạn 6 — Train và đánh giá hai tầng
 
-Dùng môi trường Python có PyTorch, torchvision, NumPy, Pillow và PyYAML. Chạy từ gốc repo. Cấu hình của thí nghiệm mô phỏng nằm trong [config/simulation.yaml](../config/simulation.yaml). Tạo DA một lần sau khi ghép tập dữ liệu mới.
+Dùng môi trường Python có PyTorch, torchvision, NumPy, Pillow và PyYAML. Chạy từ gốc repo. Có thể tải bộ dữ liệu và checkpoint từ nhánh `experiment-data` theo [README chính](../README.md). Cấu hình của thí nghiệm mô phỏng nằm trong [config/simulation.yaml](../config/simulation.yaml). Nếu đã tải `TrainingDA` từ nhánh dữ liệu, chuyển sang lệnh huấn luyện. Khi thu bộ ảnh mới, tạo DA một lần sau khi ghép bộ ảnh.
 
 ```bash
 python -m train.augment_sim --dataset data/sim-seven-office
