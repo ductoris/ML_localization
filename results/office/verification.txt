@@ -1,0 +1,18 @@
+alexnet-DA1 3353 verified
+alexnet-DA2 3353 verified
+alexnet-DA3 3353 verified
+alexnet-DA4 3353 verified
+alexnet-DA5 3353 verified
+alexnet-DA6 3353 verified
+alexnet-noDA 3353 verified
+convnext_large-noDA 3353 verified
+mobilenet_v3_large-DA1 3353 verified
+mobilenet_v3_large-DA2 3353 verified
+mobilenet_v3_large-DA3 3353 verified
+mobilenet_v3_large-DA4 3353 verified
+mobilenet_v3_large-DA5 3353 verified
+mobilenet_v3_large-DA6 3353 verified
+mobilenet_v3_large-noDA 3353 verified
+TestCloudy (0.4403207202774407, 'mobilenet_v3_large-DA6', 1.0)
+TestSunny (0.4669630943650258, 'mobilenet_v3_large-DA1', 0.9982078853046595)
+TestNight (0.46490400771250273, 'mobilenet_v3_large-DA4', 0.9991063449508489)

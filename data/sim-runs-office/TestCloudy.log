@@ -1,0 +1,259 @@
+[INFO] [launch]: All log files can be found below .ros/log/2026-11-26-18-11-38-038779-dt-75858
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [panorama_node.py-1]: process started with pid [75876]
+[INFO] [house_gazebo-2]: process started with pid [75878]
+[INFO] [robot_state_publisher-3]: process started with pid [75880]
+[INFO] [create-4]: process started with pid [75882]
+[INFO] [spawner-5]: process started with pid [75884]
+[INFO] [parameter_bridge-6]: process started with pid [75886]
+[INFO] [static_transform_publisher-7]: process started with pid [75888]
+[static_transform_publisher-7] [INFO] [1795691498.422483835] [rplidar_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-7] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-7] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-7] from 'rplidar_link' to 'turtlebot4/rplidar_link/rplidar'
+[robot_state_publisher-3] [WARN] [1795691498.430305811] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-3] [INFO] [1795691498.430487469] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-3] [INFO] [1795691498.430550396] [robot_state_publisher]: got segment bump_front_center
+[robot_state_publisher-3] [INFO] [1795691498.430563457] [robot_state_publisher]: got segment bump_front_left
+[robot_state_publisher-3] [INFO] [1795691498.430571768] [robot_state_publisher]: got segment bump_front_right
+[robot_state_publisher-3] [INFO] [1795691498.430581266] [robot_state_publisher]: got segment bump_left
+[robot_state_publisher-3] [INFO] [1795691498.430591952] [robot_state_publisher]: got segment bump_right
+[robot_state_publisher-3] [INFO] [1795691498.430603825] [robot_state_publisher]: got segment bumper
+[robot_state_publisher-3] [INFO] [1795691498.430614511] [robot_state_publisher]: got segment button_1
+[robot_state_publisher-3] [INFO] [1795691498.430625197] [robot_state_publisher]: got segment button_2
+[robot_state_publisher-3] [INFO] [1795691498.430635882] [robot_state_publisher]: got segment button_power
+[robot_state_publisher-3] [INFO] [1795691498.430644193] [robot_state_publisher]: got segment cliff_front_left
+[robot_state_publisher-3] [INFO] [1795691498.430656066] [robot_state_publisher]: got segment cliff_front_right
+[robot_state_publisher-3] [INFO] [1795691498.430665565] [robot_state_publisher]: got segment cliff_side_left
+[robot_state_publisher-3] [INFO] [1795691498.430675063] [robot_state_publisher]: got segment cliff_side_right
+[robot_state_publisher-3] [INFO] [1795691498.430685749] [robot_state_publisher]: got segment front_caster_link
+[robot_state_publisher-3] [INFO] [1795691498.430697622] [robot_state_publisher]: got segment front_left_bottom_weight_block
+[robot_state_publisher-3] [INFO] [1795691498.430709495] [robot_state_publisher]: got segment front_left_top_weight_block
+[robot_state_publisher-3] [INFO] [1795691498.430721368] [robot_state_publisher]: got segment front_left_tower_standoff
+[robot_state_publisher-3] [INFO] [1795691498.430733241] [robot_state_publisher]: got segment front_right_bottom_weight_block
+[robot_state_publisher-3] [INFO] [1795691498.430745114] [robot_state_publisher]: got segment front_right_top_weight_block
+[robot_state_publisher-3] [INFO] [1795691498.430755800] [robot_state_publisher]: got segment front_right_tower_standoff
+[robot_state_publisher-3] [INFO] [1795691498.430767673] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-3] [INFO] [1795691498.430779546] [robot_state_publisher]: got segment ir_intensity_front_center_left
+[robot_state_publisher-3] [INFO] [1795691498.430791419] [robot_state_publisher]: got segment ir_intensity_front_center_right
+[robot_state_publisher-3] [INFO] [1795691498.430800918] [robot_state_publisher]: got segment ir_intensity_front_left
+[robot_state_publisher-3] [INFO] [1795691498.430811604] [robot_state_publisher]: got segment ir_intensity_front_right
+[robot_state_publisher-3] [INFO] [1795691498.430823477] [robot_state_publisher]: got segment ir_intensity_left
+[robot_state_publisher-3] [INFO] [1795691498.430834162] [robot_state_publisher]: got segment ir_intensity_right
+[robot_state_publisher-3] [INFO] [1795691498.430846036] [robot_state_publisher]: got segment ir_intensity_side_left
+[robot_state_publisher-3] [INFO] [1795691498.430856721] [robot_state_publisher]: got segment ir_omni
+[robot_state_publisher-3] [INFO] [1795691498.430868594] [robot_state_publisher]: got segment left_wheel
+[robot_state_publisher-3] [INFO] [1795691498.430880467] [robot_state_publisher]: got segment mouse
+[robot_state_publisher-3] [INFO] [1795691498.430891153] [robot_state_publisher]: got segment oakd_camera_bracket
+[robot_state_publisher-3] [INFO] [1795691498.430901839] [robot_state_publisher]: got segment oakd_imu_frame
+[robot_state_publisher-3] [INFO] [1795691498.430913712] [robot_state_publisher]: got segment oakd_left_camera_frame
+[robot_state_publisher-3] [INFO] [1795691498.430924398] [robot_state_publisher]: got segment oakd_left_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1795691498.430935084] [robot_state_publisher]: got segment oakd_link
+[robot_state_publisher-3] [INFO] [1795691498.430946957] [robot_state_publisher]: got segment oakd_rgb_camera_frame
+[robot_state_publisher-3] [INFO] [1795691498.430958830] [robot_state_publisher]: got segment oakd_rgb_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1795691498.430968328] [robot_state_publisher]: got segment oakd_right_camera_frame
+[robot_state_publisher-3] [INFO] [1795691498.430980201] [robot_state_publisher]: got segment oakd_right_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1795691498.430989700] [robot_state_publisher]: got segment panorama_frame
+[robot_state_publisher-3] [INFO] [1795691498.431000385] [robot_state_publisher]: got segment panorama_mast
+[robot_state_publisher-3] [INFO] [1795691498.431012258] [robot_state_publisher]: got segment rear_left_tower_standoff
+[robot_state_publisher-3] [INFO] [1795691498.431024132] [robot_state_publisher]: got segment rear_right_tower_standoff
+[robot_state_publisher-3] [INFO] [1795691498.431058563] [robot_state_publisher]: got segment right_wheel
+[robot_state_publisher-3] [INFO] [1795691498.431069249] [robot_state_publisher]: got segment rplidar_link
+[robot_state_publisher-3] [INFO] [1795691498.431078748] [robot_state_publisher]: got segment shell_link
+[robot_state_publisher-3] [INFO] [1795691498.431089433] [robot_state_publisher]: got segment tower_sensor_plate
+[robot_state_publisher-3] [INFO] [1795691498.431098932] [robot_state_publisher]: got segment wheel_drop_left
+[robot_state_publisher-3] [INFO] [1795691498.431109618] [robot_state_publisher]: got segment wheel_drop_right
+[parameter_bridge-6] [INFO] [1795691498.462128003] [house_bridge]: Creating GZ->ROS Bridge: [/world/house/clock (ignition.msgs.Clock) -> /world/house/clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1795691498.463258319] [house_bridge]: Creating GZ->ROS Bridge: [/world/house/model/turtlebot4/link/rplidar_link/sensor/rplidar/scan (ignition.msgs.LaserScan) -> /world/house/model/turtlebot4/link/rplidar_link/sensor/rplidar/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1795691498.465137826] [house_bridge]: Creating GZ->ROS Bridge: [/model/turtlebot4/pose (ignition.msgs.Pose) -> /model/turtlebot4/pose (geometry_msgs/msg/PoseStamped)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1795691498.465929759] [house_bridge]: Creating GZ->ROS Bridge: [/panorama/source/front (ignition.msgs.Image) -> /panorama/source/front (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1795691498.466581591] [house_bridge]: Creating GZ->ROS Bridge: [/panorama/source/left (ignition.msgs.Image) -> /panorama/source/left (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1795691498.467017332] [house_bridge]: Creating GZ->ROS Bridge: [/panorama/source/back (ignition.msgs.Image) -> /panorama/source/back (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1795691498.467460198] [house_bridge]: Creating GZ->ROS Bridge: [/panorama/source/right (ignition.msgs.Image) -> /panorama/source/right (sensor_msgs/msg/Image)] (Lazy 0)
+[spawner-5] [INFO] [1795691498.712618833] [activate_drive]: waiting for service /controller_manager/list_controllers to become available...
+[create-4] [INFO] [1795691499.861244207] [spawn_turtlebot4]: Requested creation of entity.
+[create-4] [INFO] [1795691499.861405680] [spawn_turtlebot4]: OK creation of entity.
+[INFO] [create-4]: process has finished cleanly [pid 75882]
+[house_gazebo-2] [INFO] [1795691500.869951431] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_state_publisher
+[house_gazebo-2] [INFO] [1795691500.870003673] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_description
+[house_gazebo-2] [INFO] [1795691500.910923009] [gz_ros2_control]: connected to service!! robot_state_publisher asking for robot_description
+[house_gazebo-2] [INFO] [1795691500.911790930] [gz_ros2_control]: Received URDF from param server
+[house_gazebo-2] [INFO] [1795691500.913877028] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['bumper_joint'] (Entity='1015') is skipped.
+[house_gazebo-2] [INFO] [1795691500.913919771] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['front_caster_joint'] (Entity='1016') is skipped.
+[house_gazebo-2] [INFO] [1795691500.913936393] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['front_left_bottom_weight_block_joint'] (Entity='1017') is skipped.
+[house_gazebo-2] [INFO] [1795691500.913951828] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['front_left_top_weight_block_joint'] (Entity='1018') is skipped.
+[house_gazebo-2] [INFO] [1795691500.913966076] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['front_right_bottom_weight_block_joint'] (Entity='1019') is skipped.
+[house_gazebo-2] [INFO] [1795691500.913981511] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['front_right_top_weight_block_joint'] (Entity='1020') is skipped.
+[house_gazebo-2] [INFO] [1795691500.913995758] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['imu_joint'] (Entity='1021') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914010006] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_front_center_left_joint'] (Entity='1022') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914024254] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_front_center_right_joint'] (Entity='1023') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914037314] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_front_left_joint'] (Entity='1024') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914050374] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_front_right_joint'] (Entity='1025') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914063435] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_left_joint'] (Entity='1026') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914077682] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_right_joint'] (Entity='1027') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914091930] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_side_left_joint'] (Entity='1028') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914106178] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_omni_joint'] (Entity='1029') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914120425] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['mouse_joint'] (Entity='1030') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914134673] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['front_left_tower_standoff_joint'] (Entity='1031') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914148921] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['front_right_tower_standoff_joint'] (Entity='1032') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914163169] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_camera_bracket_joint'] (Entity='1033') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914176229] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_joint'] (Entity='1034') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914190477] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_imu_joint'] (Entity='1035') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914203537] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_left_camera_joint'] (Entity='1036') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914215410] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_left_camera_optical_joint'] (Entity='1037') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914228470] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_rgb_camera_joint'] (Entity='1038') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914240343] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_rgb_camera_optical_joint'] (Entity='1039') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914253404] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_right_camera_joint'] (Entity='1040') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914267652] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_right_camera_optical_joint'] (Entity='1041') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914278337] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['rear_left_tower_standoff_joint'] (Entity='1042') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914290210] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['rear_right_tower_standoff_joint'] (Entity='1043') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914328204] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['rplidar_joint'] (Entity='1044') is skipped.
+[house_gazebo-2] [INFO] [1795691500.914341265] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['tower_sensor_plate_joint'] (Entity='1045') is skipped.
+[house_gazebo-2] [INFO] [1795691500.925022275] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[house_gazebo-2] [INFO] [1795691500.925100637] [gz_ros2_control]: Loading joint: left_wheel_joint
+[house_gazebo-2] [INFO] [1795691500.925120821] [gz_ros2_control]: 	State:
+[house_gazebo-2] [INFO] [1795691500.925137444] [gz_ros2_control]: 		 velocity
+[house_gazebo-2] [INFO] [1795691500.925151691] [gz_ros2_control]: 		 position
+[house_gazebo-2] [INFO] [1795691500.925165939] [gz_ros2_control]: 	Command:
+[house_gazebo-2] [INFO] [1795691500.925181374] [gz_ros2_control]: 		 velocity
+[house_gazebo-2] [INFO] [1795691500.925676481] [gz_ros2_control]: Loading sensor: imu
+[house_gazebo-2] [INFO] [1795691500.925701414] [gz_ros2_control]: 	State:
+[house_gazebo-2] [WARN] [1795691500.925715662] [gz_ros2_control]: IMU sensor 'imu' not found in hardware_info, skipping.
+[house_gazebo-2] [INFO] [1795691500.926038610] [resource_manager]: Initialize hardware 'left_wheel_controller' 
+[house_gazebo-2] [WARN] [1795691500.926089664] [gz_ros2_control]: The ign_ros2_control plugin got renamed to gz_ros2_control.
+[house_gazebo-2] Update the <ros2_control> tag and gazebo plugin to
+[house_gazebo-2] <hardware>
+[house_gazebo-2]   <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+[house_gazebo-2] </hardware>
+[house_gazebo-2] <gazebo>
+[house_gazebo-2]   <plugin filename="gz_ros2_control-system"name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+[house_gazebo-2]     ...
+[house_gazebo-2]   </plugin>
+[house_gazebo-2] </gazebo>
+[house_gazebo-2] [INFO] [1795691500.926140718] [resource_manager]: Successful initialization of hardware 'left_wheel_controller'
+[house_gazebo-2] [INFO] [1795691500.926176337] [resource_manager]: 'configure' hardware 'left_wheel_controller' 
+[house_gazebo-2] [INFO] [1795691500.926184648] [gz_ros2_control]: System Successfully configured!
+[house_gazebo-2] [INFO] [1795691500.926201271] [resource_manager]: Successful 'configure' of hardware 'left_wheel_controller'
+[house_gazebo-2] [INFO] [1795691500.926208394] [resource_manager]: 'activate' hardware 'left_wheel_controller' 
+[house_gazebo-2] [INFO] [1795691500.926220267] [resource_manager]: Successful 'activate' of hardware 'left_wheel_controller'
+[house_gazebo-2] [INFO] [1795691500.926354433] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[house_gazebo-2] [INFO] [1795691500.926400738] [gz_ros2_control]: Loading joint: right_wheel_joint
+[house_gazebo-2] [INFO] [1795691500.926417360] [gz_ros2_control]: 	State:
+[house_gazebo-2] [INFO] [1795691500.926431608] [gz_ros2_control]: 		 velocity
+[house_gazebo-2] [INFO] [1795691500.926444668] [gz_ros2_control]: 		 position
+[house_gazebo-2] [INFO] [1795691500.926456541] [gz_ros2_control]: 	Command:
+[house_gazebo-2] [INFO] [1795691500.926467227] [gz_ros2_control]: 		 velocity
+[house_gazebo-2] [INFO] [1795691500.926489786] [gz_ros2_control]: Loading sensor: imu
+[house_gazebo-2] [INFO] [1795691500.926502846] [gz_ros2_control]: 	State:
+[house_gazebo-2] [WARN] [1795691500.926515907] [gz_ros2_control]: IMU sensor 'imu' not found in hardware_info, skipping.
+[house_gazebo-2] [INFO] [1795691500.926528967] [resource_manager]: Initialize hardware 'right_wheel_controller' 
+[house_gazebo-2] [WARN] [1795691500.926545589] [gz_ros2_control]: The ign_ros2_control plugin got renamed to gz_ros2_control.
+[house_gazebo-2] Update the <ros2_control> tag and gazebo plugin to
+[house_gazebo-2] <hardware>
+[house_gazebo-2]   <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+[house_gazebo-2] </hardware>
+[house_gazebo-2] <gazebo>
+[house_gazebo-2]   <plugin filename="gz_ros2_control-system"name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+[house_gazebo-2]     ...
+[house_gazebo-2]   </plugin>
+[house_gazebo-2] </gazebo>
+[house_gazebo-2] [INFO] [1795691500.926566961] [resource_manager]: Successful initialization of hardware 'right_wheel_controller'
+[house_gazebo-2] [INFO] [1795691500.926587145] [resource_manager]: 'configure' hardware 'right_wheel_controller' 
+[house_gazebo-2] [INFO] [1795691500.926593082] [gz_ros2_control]: System Successfully configured!
+[house_gazebo-2] [INFO] [1795691500.926606142] [resource_manager]: Successful 'configure' of hardware 'right_wheel_controller'
+[house_gazebo-2] [INFO] [1795691500.926614453] [resource_manager]: 'activate' hardware 'right_wheel_controller' 
+[house_gazebo-2] [INFO] [1795691500.926620390] [resource_manager]: Successful 'activate' of hardware 'right_wheel_controller'
+[house_gazebo-2] [INFO] [1795691500.926627514] [gz_ros2_control]: Loading controller_manager
+[house_gazebo-2] [INFO] [1795691500.975599163] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[spawner-5] [INFO] [1795691500.991910382] [activate_drive]: [94mLoaded [1mjoint_state_broadcaster[0m
+[house_gazebo-2] [INFO] [1795691500.993426572] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[house_gazebo-2] [INFO] [1795691500.993664034] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[house_gazebo-2] [1;33m[Wrn] [OBJLoader.cc:91] [0m[1;33mBoth `d` and `Tr` parameters defined for "Chair". Use the value of `d` for dissolve (line 8 in .mtl.)[0m
+[house_gazebo-2] [1;33m[0m
+[house_gazebo-2] [1;33m[Wrn] [OBJLoader.cc:91] [0m[1;33mBoth `d` and `Tr` parameters defined for "CoffeeTable". Use the value of `d` for dissolve (line 8 in .mtl.)[0m
+[house_gazebo-2] [1;33m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mIgnition Gazebo Server v[0m[1;32m6.18.0[0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mLoading SDF world file[[0m[1;32m/tmp/house_preview_ii6cuc4s/house_cloudy.sdf[0m[1;32m].[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mServing entity system service on [[0m[1;32m/[0m[1;32mentity/system/add[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mCreate service on [[0m[1;32m/world/house/create[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mRemove service on [[0m[1;32m/world/house/remove[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/house/set_pose[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/house/set_pose_vector[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mLight configuration service on [[0m[1;32m/world/house/light_config[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mPhysics service on [[0m[1;32m/world/house/set_physics[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mSphericalCoordinates service on [[0m[1;32m/world/house/set_spherical_coordinates[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mEnable collision service on [[0m[1;32m/world/house/enable_collision[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mDisable collision service on [[0m[1;32m/world/house/disable_collision[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/house/visual_config[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/house/wheel_slip[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mLoaded level [[0m[1;32m3[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mServing world controls on [[0m[1;32m/world/house[0m[1;32m/control], [[0m[1;32m/world/house[0m[1;32m/control/state] and [[0m[1;32m/world/house[0m[1;32m/playback/control][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mServing GUI information on [[0m[1;32m/world/house[0m[1;32m/[0m[1;32mgui/info[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mWorld [[0m[1;32mhouse[0m[1;32m] initialized with [[0m[1;32m1ms[0m[1;32m] physics profile.[0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mServing world SDF generation service on [[0m[1;32m/world/house[0m[1;32m/[0m[1;32mgenerate_world_sdf[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mServing world names on [[0m[1;32m/gazebo/worlds[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mResource path add service on [[0m[1;32m/gazebo/resource_paths/add[0m[1;32m].[0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mResource path get service on [[0m[1;32m/gazebo/resource_paths/get[0m[1;32m].[0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mResource path resolve service on [[0m[1;32m/gazebo/resource_paths/resolve[0m[1;32m].[0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mResource paths published on [[0m[1;32m/gazebo/resource_paths[0m[1;32m].[0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mServer control service on [[0m[1;32m/server_control[0m[1;32m].[0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mFound no publishers on /stats, adding root stats topic[0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mFound no publishers on /clock, adding root clock topic[0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mignition-rendering-ogre2[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mServing scene information on [[0m[1;32m/world/house[0m[1;32m/[0m[1;32mscene/info[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mServing graph information on [[0m[1;32m/world/house[0m[1;32m/[0m[1;32mscene/graph[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mServing full state on [[0m[1;32m/world/house[0m[1;32m/[0m[1;32mstate[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mServing full state (async) on [[0m[1;32m/world/house[0m[1;32m/[0m[1;32mstate_async[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mPublishing scene information on [[0m[1;32m/world/house/scene/info[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mPublishing entity deletions on [[0m[1;32m/world/house/scene/deletion[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] libEGL warning: Not allowed to force software rendering when API explicitly selects a hardware device.
+[house_gazebo-2] libEGL warning: egl: failed to create dri2 screen
+[house_gazebo-2] libEGL warning: Not allowed to force software rendering when API explicitly selects a hardware device.
+[house_gazebo-2] amdgpu_device_initialize: amdgpu_query_info(ACCEL_WORKING) failed (-13)
+[house_gazebo-2] amdgpu: amdgpu_device_initialize failed.
+[house_gazebo-2] libEGL warning: egl: failed to create dri2 screen
+[spawner-5] [INFO] [1795691502.051725223] [activate_drive]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+[spawner-5] [INFO] [1795691502.059832153] [activate_drive]: [96mSetting controller param "params_file" to "['/opt/ros/humble/share/irobot_create_control/config/control.yaml', 'ML_localization/simulation/build/install/house_localization_sim/share/house_localization_sim/config/drive_limits.yaml']" for [1mdiffdrive_controller[0m
+[house_gazebo-2] [INFO] [1795691502.063607788] [controller_manager]: Loading controller 'diffdrive_controller'
+[house_gazebo-2] [1;33m[Wrn] [Ogre2Camera.cc:390] [0m[1;33mOgre2Camera::SetVisibilityMask: Mask bits [0m[1;33mc0000000[0m[1;33m are set but will be ignored as they conflict with the [0m[1;33mreserved bits used internally by the ogre2 backend.[0m[1;33m[0m
+[house_gazebo-2] [1;33m[Wrn] [Ogre2Camera.cc:390] [0m[1;33mOgre2Camera::SetVisibilityMask: Mask bits [0m[1;33mc0000000[0m[1;33m are set but will be ignored as they conflict with the [0m[1;33mreserved bits used internally by the ogre2 backend.[0m[1;33m[0m
+[house_gazebo-2] [1;33m[Wrn] [Ogre2Camera.cc:390] [0m[1;33mOgre2Camera::SetVisibilityMask: Mask bits [0m[1;33mc0000000[0m[1;33m are set but will be ignored as they conflict with the [0m[1;33mreserved bits used internally by the ogre2 backend.[0m[1;33m[0m
+[house_gazebo-2] [1;33m[Wrn] [Ogre2Camera.cc:390] [0m[1;33mOgre2Camera::SetVisibilityMask: Mask bits [0m[1;33mc0000000[0m[1;33m are set but will be ignored as they conflict with the [0m[1;33mreserved bits used internally by the ogre2 backend.[0m[1;33m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mPublishing state changes on [[0m[1;32m/world/house/state[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mPublishing pose messages on [[0m[1;32m/world/house[0m[1;32m/[0m[1;32mpose/info[0m[1;32m][0m[1;32m[0m
+[house_gazebo-2] [1;32m[Msg] [0m[1;32mPublishing dynamic pose messages on [[0m[1;32m/world/house[0m[1;32m/[0m[1;32mdynamic_pose/info[0m[1;32m][0m[1;32m[0m
+[spawner-5] [INFO] [1795691505.890810024] [activate_drive]: [94mLoaded [1mdiffdrive_controller[0m
+[house_gazebo-2] [INFO] [1795691505.891018990] [controller_manager]: Configuring controller 'diffdrive_controller'
+[spawner-5] [INFO] [1795691505.898669994] [activate_drive]: [92mConfigured and activated [1mdiffdrive_controller[0m
+[INFO] [spawner-5]: process has finished cleanly [pid 75884]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [static_transform_publisher-7]: sending signal 'SIGINT' to process[static_transform_publisher-7]
+[INFO] [parameter_bridge-6]: sending signal 'SIGINT' to process[parameter_bridge-6]
+[INFO] [robot_state_publisher-3]: sending signal 'SIGINT' to process[robot_state_publisher-3]
+[INFO] [house_gazebo-2]: sending signal 'SIGINT' to process[house_gazebo-2]
+[INFO] [panorama_node.py-1]: sending signal 'SIGINT' to process[panorama_node.py-1]
+[static_transform_publisher-7] [INFO] [1795691749.526776459] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-6] [INFO] [1795691749.527158772] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-3] [INFO] [1795691749.527788045] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[house_gazebo-2] [INFO] [1795691749.631419767] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[house_gazebo-2] [INFO] [1795691749.631514751] [controller_manager]: Shutdown request received....
+[house_gazebo-2] [INFO] [1795691749.631593113] [controller_manager]: Shutting down all controllers in the controller manager.
+[house_gazebo-2] [INFO] [1795691749.631628733] [controller_manager]: Deactivating controller 'joint_state_broadcaster'
+[house_gazebo-2] [INFO] [1795691749.631684536] [controller_manager]: Shutting down controller 'joint_state_broadcaster'
+[house_gazebo-2] [INFO] [1795691749.631735590] [controller_manager]: Deactivating controller 'diffdrive_controller'
+[house_gazebo-2] [INFO] [1795691749.631780708] [controller_manager]: Shutting down controller 'diffdrive_controller'
+[house_gazebo-2] [INFO] [1795691749.631830575] [resource_manager]: 'deactivate' hardware 'right_wheel_controller' 
+[house_gazebo-2] [INFO] [1795691749.631854321] [resource_manager]: Successful 'deactivate' of hardware 'right_wheel_controller'
+[house_gazebo-2] [INFO] [1795691749.631862632] [resource_manager]: 'shutdown' hardware 'right_wheel_controller' 
+[house_gazebo-2] [INFO] [1795691749.631872130] [resource_manager]: Successful 'shutdown' of hardware 'right_wheel_controller'
+[house_gazebo-2] [INFO] [1795691749.631882816] [resource_manager]: 'deactivate' hardware 'left_wheel_controller' 
+[house_gazebo-2] [INFO] [1795691749.631892315] [resource_manager]: Successful 'deactivate' of hardware 'left_wheel_controller'
+[house_gazebo-2] [INFO] [1795691749.631900626] [resource_manager]: 'shutdown' hardware 'left_wheel_controller' 
+[house_gazebo-2] [INFO] [1795691749.631908937] [resource_manager]: Successful 'shutdown' of hardware 'left_wheel_controller'
+[house_gazebo-2] [INFO] [1795691749.631919623] [controller_manager]: Shutting down the controller manager.
+[INFO] [static_transform_publisher-7]: process has finished cleanly [pid 75888]
+[INFO] [parameter_bridge-6]: process has finished cleanly [pid 75886]
+[INFO] [robot_state_publisher-3]: process has finished cleanly [pid 75880]
+[INFO] [panorama_node.py-1]: process has finished cleanly [pid 75876]
+[INFO] [house_gazebo-2]: process has finished cleanly [pid 75878]
+[INFO] [launch]: process[house_gazebo-2] was required: shutting down launched system
