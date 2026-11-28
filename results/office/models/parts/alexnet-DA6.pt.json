@@ -1,0 +1,11 @@
+{
+  "file": "alexnet-DA6.pt",
+  "bytes": 228136971,
+  "sha256": "c8b251dfb829db0c60d15df4624dc2531ab5486e830d15c2fe8842ae68dfde2c",
+  "parts": [
+    "alexnet-DA6.pt.part01",
+    "alexnet-DA6.pt.part02",
+    "alexnet-DA6.pt.part03",
+    "alexnet-DA6.pt.part04"
+  ]
+}

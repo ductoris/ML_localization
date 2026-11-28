@@ -1,0 +1,19 @@
+{
+  "file": "convnext_large-noDA.pt",
+  "bytes": 785095543,
+  "sha256": "09a86fa97c5ac566ccac072b153703bc2b1e15a8494d4c68835a1fc44a8a0a72",
+  "parts": [
+    "convnext_large-noDA.pt.part01",
+    "convnext_large-noDA.pt.part02",
+    "convnext_large-noDA.pt.part03",
+    "convnext_large-noDA.pt.part04",
+    "convnext_large-noDA.pt.part05",
+    "convnext_large-noDA.pt.part06",
+    "convnext_large-noDA.pt.part07",
+    "convnext_large-noDA.pt.part08",
+    "convnext_large-noDA.pt.part09",
+    "convnext_large-noDA.pt.part10",
+    "convnext_large-noDA.pt.part11",
+    "convnext_large-noDA.pt.part12"
+  ]
+}
